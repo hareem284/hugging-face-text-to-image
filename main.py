@@ -12,14 +12,6 @@ def post_procesing_image(image):
     g_blur_image=c_image.filter(ImageFilter.GaussianBlur(radius=2))
     return g_blur_image
 
-
-
-
-
-
-
-
-
 def generate_image_from_text(prompt:str):
     
     #putting headers
